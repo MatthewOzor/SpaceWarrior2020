@@ -1,0 +1,65 @@
+
+Space Warrior 2020 the exiciting new C64 video game by Matt Ozor
+
+Plot:
+Your home planet's Sun is going to explode and you need
+to collect material from all adjecent planets to seed the star
+stop the explosion. The problems is the planets are all full
+of hostile aliens. You must battle them to aquire the material. 
+Once all material is collected deposit it in the sun.
+
+Twist:
+The end boss was sent to destroy the solar system. Leaving
+open the possiblity of a sequel.
+
+To do:
+title screen
+menu screen
+intro screen
+random planet map
+planet battle screen
+planet cleared screen
+final boss at Sun
+end screen
+game over
+
+Algo's:
+Random solar system generator (random location in solar system, aliens, material type, weapon gain)
+Random monster generator 
+
+Data:
+Material list
+Alien list
+Player (current experience points, health, weapon)
+Weapon levels
+Planet Types (type, graphics)
+
+Program loop
+- Title Screen
+- Menu Screen
+-- Inro
+--- Game Loop
+---- Select Planet to fly too
+---- Show world / alien
+---- battle loop
+------ Player attacks
+------ Alien damage check
+------ Alien attack if not dead
+------ Player damage check
+------ loop Battle (if player not dead)
+---- Battle victory Screen
+---- loop Select planet (if game not over)
+--- End Screen
+--- Game over
+- loop Menu
+-exit
+
+
+
+
+
+
+
+
+
+
